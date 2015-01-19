@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initialize a depository, using "git init", creates a git file and 
+attaches it to the repository. Without a git file, you would not be 
+able to track the history of the repository's files or make use of Git's
+functionality.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area serves as an intermediate stage between the working
+directory and the repository. It offers space and time to reconsider the
+structure of your commit.
+
