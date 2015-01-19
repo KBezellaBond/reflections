@@ -1,0 +1,60 @@
+How did viewing a diff (FC) between two versions of a file help you see
+the bug that was introduced?
+
+The FC (file compare) command displays only the lines that are different
+between the two versions. I only had to read through a few lines, 
+instead of the entire files, so I was able to find the bug quickly.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+If you have the entire history of a file, you can compare versions to
+make debugging easier. You can also easily restore to earlier versions.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google docs does?
+
+When you manually choose when to commit, you can ensure that each
+version has a clear logical difference. However, manually saving 
+requires you to remember to save after each logical change. Automatic
+saving results in less useful versions. Different versions may have no 
+changes or many changes. However, automatic saving guarantees that you
+will have a historical record of your project.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems like Git allow for the interdependency of files.
+By saving all the project files at each commit, the system brings all 
+all the files forward together. Otherwise, the user may forget to
+commit changes to all the files. The user does not have to keep track 
+of the newest file versions in different commits.  
+
+By treating each file separately, Google Docs leaves the organization 
+of these files and their various versions to the user.
+
+How can you use the commands git log and git diff to view the history
+of files?
+
+"git log" provides a listing of all commits, most recent first. Each
+ entry includes a commit ID, the author, the date, and a brief
+ description of the changes made. "git log --stat" gives the
+ additional information of how many insertions and deletions were made
+ to each file in the repository. 
+
+"git diff" allows you to compare two commits and shows the line numbers
+that were added or deleted (a change to a line registers as a deletion
+of the first version and an addition of the second version).
+
+How might using version control make you more confident to make changes
+that could break something?
+
+With version control, I know that I can revert to previous versions to 
+identify the version that introduced the bug. I can then use diff to 
+pinpoint the lines in which the bug occurred.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+I would love to use Git for version control on my C# Introductory
+Programming Logic projects.
