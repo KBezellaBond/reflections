@@ -26,3 +26,8 @@ Branches would be helpful when you want to experiment with one aspect
 of the game, or when two developers are working on different aspects. 
 Branches help by allowing for various experiments or threads to evolve
 simultaneously, while keeping the master branch intact.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams look like a tree, showing how the other branches relate to
+the master branch (or trunk).
