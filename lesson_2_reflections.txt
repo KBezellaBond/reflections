@@ -18,3 +18,11 @@ You can use git diff --staged to view the differences between your
 staged files and the most recent commit. From this list, you can 
 determine whether you have one logical change (or more than one)
 logical change.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches would be helpful when you want to experiment with one aspect 
+of the game, or when two developers are working on different aspects. 
+Branches help by allowing for various experiments or threads to evolve
+simultaneously, while keeping the master branch intact.
