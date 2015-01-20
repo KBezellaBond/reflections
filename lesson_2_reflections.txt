@@ -11,3 +11,10 @@ The staging area serves as an intermediate stage between the working
 directory and the repository. It offers space and time to reconsider the
 structure of your commit.
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can use git diff --staged to view the differences between your 
+staged files and the most recent commit. From this list, you can 
+determine whether you have one logical change (or more than one)
+logical change.
