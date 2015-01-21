@@ -38,3 +38,11 @@ represent it in the diagram the way we do?
 When you merge two branches together, you also merge their histories 
 (by commit date). The representation in the diagram shows two branches
 reconnecting and proceeding as one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+Automatic merging is quick and hassle-free, but could introduce
+problems if Git automatically resolved conflicts. Manual merges are more
+time-consuming but allow the programmer or programming team to resolve
+conflicts and ensure that they are left with the version they want.
