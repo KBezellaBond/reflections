@@ -31,3 +31,10 @@ How do the diagrams help you visualize the branch structure?
 
 The diagrams look like a tree, showing how the other branches relate to
 the master branch (or trunk).
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+When you merge two branches together, you also merge their histories 
+(by commit date). The representation in the diagram shows two branches
+reconnecting and proceeding as one.
