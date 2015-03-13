@@ -9,3 +9,15 @@ automatically stay up-to-date with your remote repository?
 Your remote repository may represent a collaboration between you and a team of
 programmers. You may not want to pull all of their changes into your local
 repository immediately.
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+Forking is when you transfer a copy of someone else's repository into your GitHub 
+account. Any changes you make to the repository do not affect the original, unless
+the original owner of the repository gives you permission to add your branch or merge
+your code back in.
+Cloning is when you make a local copy of one of your own remote repositories.
+Branching allows you to take a program in a different direction (for example, to add
+a new feature) separate from the main branch of the code. It is possible to merge 
+those different versions at a later date.
