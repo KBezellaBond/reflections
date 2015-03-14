@@ -21,3 +21,10 @@ Cloning is when you make a local copy of one of your own remote repositories.
 Branching allows you to take a program in a different direction (for example, to add
 a new feature) separate from the main branch of the code. It is possible to merge 
 those different versions at a later date.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+When you have a copy of the last known state of the remote stored locally, you can 
+always check how the state of the local repository compares. This allows you to be
+smart about your pushes, pulls, merges, etc.
